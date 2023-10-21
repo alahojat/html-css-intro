@@ -1,1 +1,114 @@
 @import "./menu";
+
+body {background-color: #fff236;}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    h1 {
+        margin: 0;
+    }
+    font-family: 'jockey one';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+}
+
+
+.page1top__title {
+    margin-top: 100px;
+    background-color: black;
+    height: 30vh;
+    text-transform: uppercase;
+    border: 2px solid lightcoral;
+    font-family: 'jockey one', sans-serif;
+    
+}
+
+.page1top__text {
+    color: #00ff38;
+    font-family: 'jockey one';
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+.page1bottom__text {
+    position: relative;
+    color: #aa75ff;
+    font-family: 'jockey one';
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 20px;   
+}
+
+.page1bottom__menu {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    flex-direction: wrap;
+    width: 20vw;
+}
+
+.page1bottom_arrow {
+    display: block;
+    justify-content: left;
+    rotate: 90deg;
+    width: 10vw;
+    height: auto;
+}
+
+
+
+
+.page1top__tahini {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    margin: 20px;
+    color: #00ff38;
+    border: 1px solid purple;
+
+}
+
+.page1top__chickpeas {
+    display: flex;
+    justify-content: right;
+    color: #fff236;
+    font-size: 1.5rem;
+}
+
+
+.page1top__drizzle {
+    display: flex;
+    color: blue;
+}
+
+img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+.page3 {
+    background-color: #00ff38;
+}
