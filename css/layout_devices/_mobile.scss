@@ -12,6 +12,7 @@ header {
     height: 7vh;
     background-color: black;
     color: white;
+    z-index: 10;
     h1 {
         margin: 0;
     }
@@ -28,6 +29,7 @@ header {
 
 
 .page1top__title {
+    position: relative;
     margin-top: 100px;
     background-color: black;
     height: 30vh;
@@ -48,7 +50,7 @@ header {
 .page1bottom__text {
     position: relative;
     color: #aa75ff;
-    font-family: 'jockey one';
+    font-family: 'jockey one' sans-serif;
     background-color: white;
     width: 100%;
     height: auto;
