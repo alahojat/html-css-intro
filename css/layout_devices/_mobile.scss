@@ -27,6 +27,7 @@ header {
     display: flex;
     flex-direction: column;   
     height: 100vh;
+    
 }
 
 .page1top {
@@ -127,20 +128,27 @@ header {
 
 .page1bottom__text {
     position: relative;
+    min-height: 300px;
+    max-height: 300px;
 }
 
 .page1bottom__menu {
+    font-family: 'jockey one'; 
     position: absolute;
-    left: 5%;
+    bottom: 22%;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    padding-left: 20px;
 
     
 }
 
 .page1bottom__arrow {
     position: absolute;
-    left: 30%;
+    left: 40%;
     width: 10vw;
     height: auto;
+    bottom: 22%;
 }
 
 
