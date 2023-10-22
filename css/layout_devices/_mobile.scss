@@ -2,6 +2,8 @@
 
 body {background-color: #fff236;}
 
+
+
 img {
     width: 100vw;
     height: auto;
@@ -29,7 +31,8 @@ header {
 .page1 {
     display: flex;
     flex-direction: column;   
-    height: 100vh;
+    height: 100%;
+    
     
 }
 
@@ -48,6 +51,7 @@ header {
     font-family: 'jockey one', sans-serif; 
     min-height: 200px; 
     max-height: 180px;
+    width: 100vw;
 }
 
 .page1top__tahini {
@@ -86,7 +90,7 @@ header {
     color: #00ff38;
     font-family: 'jockey one';
     background-color: black;
-    width: 100%;
+    width: 100vw;
     padding: 20px;
     font-size: 1.2rem; 
 }
@@ -116,7 +120,7 @@ header {
     width: 100%;
     height: auto;
     padding: 20px;  
-    padding-bottom: 50px; 
+    padding-bottom: 60px; 
     font-size: 1.2rem;
     margin-bottom: 16px;
 }
@@ -133,37 +137,78 @@ header {
 
 .page1bottom__text {
     position: relative;
-    min-height: 300px;
-    max-height: 300px;
+    height: 240px;
+    width: 100vw;
 }
 
 .page1bottom__menu {
     font-family: 'jockey one'; 
     position: absolute;
-    bottom: 22%;
+    bottom: 15%;
     font-size: 1.7rem;
     text-transform: uppercase;
     padding-left: 20px;
-
-    
 }
 
 .page1bottom__arrow {
     position: absolute;
-    left: 40%;
+    left: 35%;
     width: 6vw;
     height: auto;
-    bottom: 25%;
+    bottom: 18%;
 }
 
 
+.page2  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+}
 
 
+.page2_pic {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100vw;
+    min-height: 160px;
+    max-height: 160px;
+   
+ }
 
 
+.page2bottom_menu {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 
-
-
-.page2 {
+.page3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #00ff38;
     height: 100%;
 }
+
+h3 {
+    font-family: 'jockey one';
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+.page2bottom_info {
+    padding-left: 10px;
+    font-family: 'roboto';
+}
+
+.footer {
+    width: 100vw;
+    background-color: #aa75ff;
+}
+
+
