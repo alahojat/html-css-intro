@@ -218,7 +218,28 @@ h3 {
     padding-left: 10px;
     font-family: 'jockey one';
     font-size: 2rem;
+
+}
+
+
+ .sticker {
+    font-family: 'courier new' courier, monospace;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    }
+
+.new {
+    position: absolute;
+    margin-block: 0;
+    top: 10px;
+    left: 250px;
+    background-color: #aa75ff;
+    padding: 0px 10px;
     
+}
+
+.new + span {
+    rotate: 45deg;
 }
 
 .footer {
