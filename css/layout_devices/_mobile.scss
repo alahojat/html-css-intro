@@ -31,15 +31,14 @@ header {
 }
 
 .page1top {
-    min-height: 500px;
-    max-height: 500px;
+    height: 100%;
 }
 
 .page1top__title {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 85px;
     background-color: black;
     height: 18vh;
     text-transform: uppercase;
@@ -98,7 +97,7 @@ header {
 
 .page1bottom_arrow {
     position: absolute;
-    bottom: 5%;
+    bottom: 15%;
     left: 20px;
     display: block;
     justify-content: left;
@@ -120,10 +119,15 @@ header {
     margin-bottom: 16px;
 }
 
-.page1bottom__image {
+.page1bottom__section {
     margin-bottom: 16px;
     width: 100vw;
+    &:hover .page1bottom_arrow {
+        transform: translateX(40px);
+        transition: transform 1s ease-in-out;
+    }
 }
+
 
 
 .page1bottom__text {
@@ -146,10 +150,11 @@ header {
 .page1bottom__arrow {
     position: absolute;
     left: 40%;
-    width: 10vw;
+    width: 6vw;
     height: auto;
-    bottom: 22%;
+    bottom: 25%;
 }
+
 
 
 img {
@@ -158,3 +163,8 @@ img {
     object-fit: cover;
 }
 
+
+
+.page2 {
+    height: 100%;
+}
