@@ -19,28 +19,32 @@ header {
     font-family: 'jockey one';
     text-transform: uppercase;
     letter-spacing: 5px;
+    min-height: 70px;
+    max-height: 70px;
 }
 
 .page1 {
     display: flex;
     flex-direction: column;   
-    height: 1000px;
+    height: 100vh;
 }
 
 .page1top {
-    min-height: 1000px;
+    min-height: 500px;
+    max-height: 500px;
 }
 
 .page1top__title {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 90px;
     background-color: black;
     height: 18vh;
     text-transform: uppercase;
     font-family: 'jockey one', sans-serif; 
-    min-height: 500px;  
+    min-height: 200px; 
+    max-height: 180px;
 }
 
 .page1top__tahini {
@@ -69,7 +73,7 @@ header {
     position: absolute;
     top: 20%;
     transform: translateY(-50%);
-    right: 17%;
+    right: 14%;
     transform: translateX(-50%);
     color: #aa75ff;
     font-size: 2rem;
