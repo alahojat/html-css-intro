@@ -2,6 +2,12 @@
 
 body {background-color: #fff236;}
 
+img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -13,10 +19,7 @@ header {
     background-color: black;
     color: white;
     z-index: 10;
-    h1 {
-        margin: 0;
-    }
-    font-family: 'jockey one';
+    font-family:'jockey one';
     text-transform: uppercase;
     letter-spacing: 5px;
     min-height: 70px;
@@ -85,8 +88,7 @@ header {
     background-color: black;
     width: 100%;
     padding: 20px;
-    font-size: 1.2rem;
-   
+    font-size: 1.2rem; 
 }
 
 
@@ -97,7 +99,7 @@ header {
 
 .page1bottom_arrow {
     position: absolute;
-    bottom: 15%;
+    bottom: 12%;
     left: 20px;
     display: block;
     justify-content: left;
@@ -123,11 +125,10 @@ header {
     margin-bottom: 16px;
     width: 100vw;
     &:hover .page1bottom_arrow {
-        transform: translateX(40px);
+        transform: translateX(25px);
         transition: transform 1s ease-in-out;
     }
 }
-
 
 
 .page1bottom__text {
@@ -157,11 +158,9 @@ header {
 
 
 
-img {
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
-}
+
+
+
 
 
 
