@@ -159,25 +159,20 @@
 
       <div class="page3">
         <div class="page3__form">
-          <form>
+          <h3 class="page3title">Book your table</h3>
+          <form class="page3__form2">
           <label for="name">Name</label>
           <input type="text" id="name" placeholder="e.g Jane doe" required aria-required="true">
-
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="e.g janedoe@gmail.com" required aria-required="true">
-
           <label for="number">Phone</label>
           <input type="number" id="number" placeholder="e.g +46000000000" required aria-required="true">
-
           <label for="date">Date</label>
           <input type="date" id="date" required aria-required="true">
-
           <label for="partysize">Party size</label>
           <input type="text" id="partysize" placeholder="e.g 3" required aria-required="true" >
-
           <label for="text">Allergies</label>
           <input type="text" id="text" placeholder="e.g gluten">
-
           <div class="page3__button">
             <input class="page3__cancel" type="reset" value="Cancel">
             <input class="page3__request" type="submit" value="Request">
@@ -185,13 +180,34 @@
           </form>
         </div>
 
-       
-
-        <div class="page3__image"> </div>
-        <figure class="page3__phone"> </figure>
-        <figure class="page3__at"></figure>
-        <figure class="page3__location"></figure>
+        <div class="page3__image">
+          <img class="page3_dining" src="assets/photos/resized-images/set-dining-table.jpg" alt="Dining table set with plates and wineglasses">      
+          <div>
+            <ul class="page3__contact">
+              <li>
+                <img class="phone" src="assets/icons/phone-sign.svg" 
+                alt="A phone icon" width="20" height="20">
+                <a href="tel:+4681234567">+4681234567</a>
+              </li>
+              <li>
+                <img class="at" src="assets/icons/at-sign.svg"
+                alt="Email atsign" width="20" height="20">
+                <a href="mailto:book@toughcookie.com">book@toughcookie.com</a>
+              </li>
+              <li>
+                <img class="location" src="assets/icons/location-sign.svg" 
+                alt="Location sign pindrop" width="20" height="20">
+                <div>
+                  <p>Brända Tomten</p>
+                  <p>111 31 Stockholm</p>
+                </div>
+              </li>
+           </ul>
+          </div>
+        </div>
       </div>
+
+      
 
       <footer class="footer"> 
         <p>You should accept cookies.</p>
