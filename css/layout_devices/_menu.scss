@@ -71,6 +71,15 @@ nav {
     font-family: 'jockey one' sans-serif;
     text-transform: uppercase;
     font-size: 2rem;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        text-align: center;
+    }
 }
 
 .menu:checked + .head nav {
@@ -78,13 +87,3 @@ nav {
     opacity: 1;    
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    text-align: center;
-    
-}

@@ -45,20 +45,26 @@
       <header>
         <input class="menu" type="checkbox">
         <div class="head">
-        <button class="menubutton">
-          <span class="menuspan"></span>
-          <span class="menuspan"></span>
-          <span class="menuspan"></span>
-        </button>
-        <nav>
-          <ul>
-              <li>Home</li>
-              <li>Menu</li>
-              <li>Book table</li>
-          </ul>
-        </nav>
-      </div>
-      <h1>Tough cookie</h1>
+          <button class="menubutton">
+            <span class="menuspan"></span>
+            <span class="menuspan"></span>
+            <span class="menuspan"></span>
+          </button>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Menu</a>
+              </li>
+              <li>
+                <a href="#">Book table</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h1>Tough cookie</h1>
       </header>
       <div class="page1"> 
           <section class="page1top">
@@ -89,13 +95,12 @@
                 squash basmati thyme hummus falafel bowl cozy butternut cilantro lime vinaigrette heat mint potato 
                 chocolate cookie seeds samosa walnut mushroom tart.
               </p>
-              <p class="page1bottom__menu">Explore menu</p>
+              <a href="#page2" class="page1bottom__menu">Explore menu</a>
               <img class="page1bottom__arrow" src="assets/icons/arrow2.svg" alt="black-arrow">  
           </div>
           </div>
       </div>
-
-      <div class="page2">
+      <div id="page2" class="page2">
         <div class="page2__images">
           <img class="page2_pic" src="assets/photos/resized-images/chickpea-salad-bowl.jpg" alt="Blue bowl containging chickpeas and vegetables" width="819" height="1024">
           <img class="page2_pic" src="assets/photos/resized-images/hummus-bowl.jpg" alt="Blue bowl with hummus and decorative chickpeas" width="1024" height="792">
@@ -156,7 +161,6 @@
 
         </div>
       </div>
-
       <div class="page3">
         <div class="page3__form">
           <h3 class="page3title">Book your table</h3>
@@ -180,35 +184,30 @@
           </form>
         </div>
 
-        <div class="page3__image">
-          <img class="page3_dining" src="assets/photos/resized-images/set-dining-table.jpg" alt="Dining table set with plates and wineglasses">      
-          <div>
+        <div class="page3__container">
+          <img class="page3_dining" src="assets/photos/resized-images/set-dining-table.jpg" alt="Dining table set with plates and wineglasses">     
             <ul class="page3__contact">
               <li>
                 <img class="phone" src="assets/icons/phone-sign.svg" 
-                alt="A phone icon" width="20" height="20">
-                <a href="tel:+4681234567">+4681234567</a>
+                alt="A phone icon" width="60" height="60">
+                <a href="tel:+4681234567" class="contactlink">+4681234567</a>
               </li>
               <li>
                 <img class="at" src="assets/icons/at-sign.svg"
-                alt="Email atsign" width="20" height="20">
-                <a href="mailto:book@toughcookie.com">book@toughcookie.com</a>
+                alt="Email atsign" width="60" height="60">
+                <a href="mailto:book@toughcookie.com" class="contactlink">book@toughcookie.com</a>
               </li>
               <li>
                 <img class="location" src="assets/icons/location-sign.svg" 
-                alt="Location sign pindrop" width="20" height="20">
+                alt="Location sign pindrop" width="60" height="60">
                 <div>
                   <p>Brända Tomten</p>
                   <p>111 31 Stockholm</p>
                 </div>
               </li>
-           </ul>
-          </div>
+           </ul>        
         </div>
       </div>
-
-      
-
       <footer class="footer"> 
         <p>You should accept cookies.</p>
         <div class="buttons">
@@ -216,8 +215,6 @@
           <button class="page3footer__accept">Accept</button>
         </div>
       </footer>
-
-
     </main>
   </body>
 </html>
