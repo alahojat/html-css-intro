@@ -46,8 +46,6 @@ a {
     display: flex;
     flex-direction: column;   
     height: 100%;
-    
-    
 }
 
 .page1top {
@@ -181,7 +179,24 @@ a {
 }
 
 
-.page2_pic {
+.page2_pic1 {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100vw;
+    min-height: 160px;
+    max-height: 160px;
+ }
+ .page2_pic2 {
+    padding: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100vw;
+    min-height: 160px;
+    max-height: 160px;
+ }
+
+ .page2_pic3 {
     padding: 10px;
     padding-left: 0;
     padding-right: 0;
@@ -397,7 +412,7 @@ input {
     background-color: #aa75ff;
     min-height: 60px;
     font-family: 'roboto condensed';
-    padding: 20px;
+    padding: 10px;
     font-size: 1.2rem;
     .buttons {
         display: inline;
@@ -412,9 +427,9 @@ input {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
-    font-size: 1.4rem;
-    margin-left: 5px;
-    margin-right: 5px;   
+    font-size: 1.3rem;
+    margin-left: 3px;
+    margin-right: 3px;   
 }
 
 .page3footer__accept {
@@ -423,8 +438,8 @@ input {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
-    font-size: 1.4rem;
-    margin-left: 5px;
-    margin-right: 5px;
+    font-size: 1.3rem;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
