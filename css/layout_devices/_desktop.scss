@@ -1,0 +1,114 @@
+main {
+    display: grid;
+    grid-template-columns: 6vw repeat(11, 1fr);
+    column-gap: 16px;
+    
+}
+    
+
+
+header {
+    display: grid;
+    left: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 6vw;
+    min-height: 100vh;
+    h1 {
+        display: grid;
+        min-height: 100vh;
+        max-height: 100vh;
+        max-width: 6vw;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        font-size: 1.8rem;
+        padding-top: 30px;   
+        width: 6vw;
+        align-items: center;
+        word-spacing: 1px;
+    }   
+}
+
+.page1 {
+    padding-left: 100px;
+    padding-top: 0px;
+    display: grid;
+    grid-column: 1 / 11;
+    height: 100%;
+    .page1top__text {
+        display: grid;
+        grid-column: 1 / 5;
+        width: 60%;
+        border: 2px solid red;       
+    }
+    .page1top__title {
+        margin-top: 0px;
+        display: grid;
+        grid-column: 6 /11;
+        border: 2px solid red;    
+        width: 40%;
+    }
+    .page1bottom__section {
+        display: grid;
+        grid-column: 1 / 5;
+        height: 60%;
+        width: 50%;
+        border: 2px solid red; 
+    }
+
+    .page1bottom__text {
+        display: grid;
+        grid-column: 8 / 12;
+        width: 50%;
+
+    }
+}
+
+
+.page2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    height: 100%;
+    left: 0;
+    .page2__images {
+        grid-column: 2 /12;
+        border: 2px solid red;  
+        width: 100%;
+        padding: 0;
+        }
+
+    .page2bottom {
+        display: grid;
+        grid-column: 2 / 12;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+.page3 {
+    display: grid;
+    grid-column: 2 / 12;
+    height: 100%;
+    .page3__form2 {
+        display: grid;
+        grid-column: 2 / 6;
+    }
+    .page3__container {
+        display: grid;
+        grid-column: 7 /12;
+    }
+
+}
+
+
+
+footer {
+    display: grid;
+    grid-column: 2 / 12;
+    bottom: 0px;
+    left: 0;
+    min-height: 50px;
+    max-height: 50px;
+}
