@@ -1,11 +1,9 @@
 main {
     display: grid;
-    grid-template-columns: 6vw repeat(11, 1fr);
+    grid-template-columns: 6vw repeat(11, minmax (0, 1));
     column-gap: 16px;
     
 }
-    
-
 
 header {
     display: grid;
@@ -33,44 +31,55 @@ header {
     padding-left: 100px;
     padding-top: 0px;
     display: grid;
-    grid-column: 1 / 11;
+    grid-column: 2 / 11;
     height: 100%;
-    .page1top__text {
+    width: 94vw;
+
+    .page1top {
         display: grid;
-        grid-column: 1 / 5;
-        width: 60%;
-        border: 2px solid red;       
+        grid-template-columns: repeat(2, minmax (0, 1fr));
     }
+
     .page1top__title {
         margin-top: 0px;
         display: grid;
-        grid-column: 6 /11;
+        grid-column: 1;
         border: 2px solid red;    
-        width: 40%;
+        
+    }
+
+    .page1top__text {
+        display: grid;
+        grid-column: 2;
+        border: 2px solid red;       
     }
     .page1bottom__section {
         display: grid;
         grid-column: 1 / 5;
         height: 60%;
-        width: 50%;
         border: 2px solid red; 
+        .page1bottom__lettuce {
+            max-width: 100%;
+        }
     }
 
     .page1bottom__text {
         display: grid;
-        grid-column: 8 / 12;
-        width: 50%;
+        grid-column: 6 / 11;
+        
+        border: 2px solid red; 
 
     }
+   
 }
 
 
 .page2 {
+    padding-left: 100px;
+    padding-top: 0px;
     display: grid;
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column: 2 / 11;
     height: 100%;
-    left: 0;
     .page2__images {
         grid-column: 2 /12;
         border: 2px solid red;  
@@ -88,8 +97,10 @@ header {
 
 
 .page3 {
+    padding-left: 100px;
+    padding-top: 0px;
     display: grid;
-    grid-column: 2 / 12;
+    grid-column: 2 / 11;
     height: 100%;
     .page3__form2 {
         display: grid;
@@ -99,7 +110,6 @@ header {
         display: grid;
         grid-column: 7 /12;
     }
-
 }
 
 
