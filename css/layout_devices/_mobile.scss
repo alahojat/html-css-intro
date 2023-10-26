@@ -332,6 +332,9 @@ h3 {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1.4rem;
+    input {
+        border: none;
+    }
     .page3__cancel {
         background-color: #aa75ff;
         padding-left: 20px;
@@ -339,6 +342,7 @@ h3 {
         text-transform: uppercase;
         font-size: 1.4rem;
         border-radius: 10px;
+        border: none;
         margin-top: 20px;
         margin-right: 20px;
     }
@@ -349,6 +353,7 @@ h3 {
         text-transform: uppercase;
         font-size: 1.4rem;
         border-radius: 10px;
+        border: none;
         margin-top: 20px;
     }
 }
