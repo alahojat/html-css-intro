@@ -408,17 +408,16 @@ input {
 }
 
 .at {
-    height: 50px;
-    
+    height: 50px;  
+    width: 50px; 
+    max-height: 50px;
 }
 
 .location {
     width: 50px;
-   
 }
 
 .footer {
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -428,6 +427,7 @@ input {
     font-family: 'roboto condensed';
     padding: 10px;
     font-size: 1.2rem;
+    z-index: 10;
     .buttons {
         display: inline;
         font-family: 'jockey one';
@@ -443,7 +443,8 @@ input {
     border-radius: 15px;
     font-size: 1.3rem;
     margin-left: 3px;
-    margin-right: 3px;   
+    margin-right: 3px;
+    border: none;   
 }
 
 .page3footer__accept {
@@ -455,5 +456,6 @@ input {
     font-size: 1.3rem;
     margin-left: 3px;
     margin-right: 3px;
+    border: none;
 }
 

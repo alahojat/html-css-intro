@@ -102,6 +102,8 @@ header {
     }
     .page1bottom_arrow {
         width: 5vw;
+        min-height: 5vh;
+        max-height: 5vh;
     }
     .page1bottom__text {
         position: relative;
@@ -132,6 +134,8 @@ header {
     }
 
     .page1bottom__arrow {
+        position: absolute;
+        min-height: 100%;
         width: 2.3vw;
         bottom: 30px;
         left: 72%;

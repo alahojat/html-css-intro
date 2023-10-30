@@ -1,1 +1,103 @@
 
+.page1top__title {
+    min-height: 200px; 
+    width: 100vw;
+    .page1top__tahini {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 5rem;
+        color: #00ff38;
+        z-index: 3;
+    }
+    .page1top__chickpeas {
+        position: absolute;
+        top: 57%;
+        transform: translateY(-50%);
+        left: 47%;
+        transform: translateX(-50%);
+        color: #fff236;
+        font-size: 2rem;
+        z-index: 1;
+    }
+    .page1top__drizzle {
+        position: absolute;
+        top: 18%;
+        transform: translateY(-50%);
+        right: 33%;
+        transform: translateX(-50%);
+        color: #aa75ff;
+        font-size: 1.8rem;
+    }
+}
+
+.page1top__text {
+    font-size: 1.9rem; 
+}
+.page1bottom__paragraph {
+    font-size: 1.8rem;
+}
+.page1bottom__menu {
+    left: -15px;
+    font-size: 2rem;
+    padding-left: 30px; 
+}
+
+.page1bottom__arrow {
+    position: absolute;
+    left: 25%;
+    width: 5vw;
+    height: auto;
+    bottom: 5px;
+}
+
+
+
+
+
+.page3__contact {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #28BCEC;    
+    font-size: 2rem;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    row-gap: 20px;
+
+    filter: drop-shadow(-2px -2px black);
+    li {
+        display: flex;
+        gap: 40px;
+    }
+    .contactlink {
+        color: #28BCEC;
+        font-size: 2rem;
+    }
+    
+    .phone {
+        width: 65px;
+    }
+    
+    .at {
+        height: 65px;
+        width: 65px;
+        max-height: 65px;
+        
+    }
+    
+    .location {
+        width: 65px;
+       
+    }
+}
+
+
+.footer__text {
+    padding-left: 100px;
+
+}
