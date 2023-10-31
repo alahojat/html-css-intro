@@ -61,9 +61,7 @@ a {
     height: 18vh;
     text-transform: uppercase;
     font-family: 'jockey one', sans-serif; 
-    min-height: 200px; 
-    max-height: 180px;
-    width: 100vw;
+    width: 100%;
     .page1top__tahini {
         position: absolute;
         top: 20%;
@@ -101,7 +99,7 @@ a {
     color: #00ff38;
     font-family: 'jockey one';
     background-color: black;
-    width: 100vw;
+    width: 100%;
     padding: 30px;
     font-size: 1.3rem; 
 }
@@ -127,7 +125,7 @@ a {
 
 .page1bottom__section {
     margin-bottom: 16px;
-    width: 100vw;
+    width: 100%;
     &:hover .page1bottom_arrow {
         transform: rotate(90deg) translateX(25px);
         transition: transform 1s ease-in-out;
@@ -137,7 +135,7 @@ a {
 .page1bottom__text {
     position: relative;
     height: 240px;
-    width: 100vw;
+    width: 100%;
 }
 
 .page1bottom__paragraph {
