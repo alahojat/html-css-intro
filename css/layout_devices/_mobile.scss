@@ -58,7 +58,8 @@ a {
     flex-direction: column;
     margin-top: 85px;
     background-color: black;
-    height: 18vh;
+    min-height: 18vh;
+    
     text-transform: uppercase;
     font-family: 'jockey one', sans-serif; 
     width: 100%;
@@ -338,6 +339,7 @@ a {
     }
     input {
         border: none;
+        border-radius: 18px;
 
     }
 }
@@ -371,7 +373,6 @@ input {
 .page3__container {
     position: relative;
     margin-top: 30px;
-    padding-left: 0px;
     margin-bottom: 30px;
     .page3_dining {
         filter: blur(3px);       

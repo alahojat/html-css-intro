@@ -141,6 +141,7 @@ header {
         grid-template-columns: repeat(15, 1fr);
         column-gap: 16px;
         margin-bottom: 0;
+        margin-left: -5px;
         padding-bottom: 15px;
         width: 100%;
         
@@ -176,16 +177,16 @@ header {
 
 .page2bottom {
         display: grid;
-        grid-template-columns: 1 / 10;
+        grid-template-columns: repeat(10, 1fr);
         width: 100%;
         margin: 0;
         
         .page2bottom_menu { 
             display: flex;
             flex-direction: row;
-            grid-column: 2 / 10;
+            grid-column: 2 / 11;
             padding: 3px 0px 0px 0px;
-            margin: 0px 0px 5px -30px;
+            margin: 0px 0px 5px -45px;
             border-top: 2px solid black;
             border-bottom: 2px solid black;
             h3 {
@@ -238,12 +239,19 @@ header {
 .page3 {
     grid-column: span 10;
     column-gap: 16px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
     margin: 16px 15px 0px 0px;
     width: 100%;
-    border-left: 90px solid white;
+    height: 100vh;
+    border-left: 100px solid white;
 
     .page3__form {
-        grid-column: 2 / 3;    
+        display: grid;   
+        grid-template-rows: 6vw repeat(5, 1fr);
+        width: 100%;
+        padding-top: 150px; 
         h3 {
             font-size: 3.5rem;
             font-weight: normal;
@@ -260,7 +268,8 @@ header {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                padding: 10px;
+                align-items: center;
+                padding: 5px;
             }
             
             label {
@@ -270,6 +279,7 @@ header {
             input {
                 width: 60%;
                 height: 40px;
+                        
             }
         }
 
@@ -280,50 +290,58 @@ header {
             padding-left: 50px;
             padding-right: 50px;
         }  
+
         .page3__cancel {
             font-size: 2rem;
             padding-top: 0;
             padding-bottom: 0;
             padding-left: 50px;
             padding-right: 50px;
+        }
+
     }
-    }
+
 
     .page3__container {
-        display: flex;
-        width: 45vw;
-        left: 0;
-        margin: 0;
-        padding-top: 170px;
-        overflow: hidden;     
-    }
-    .page3_dining {
-        margin-left: -80px;
-        min-height: 500px;
-        min-width: 800px;
-     
-    }   
-    .page3__contact {
-        padding-top: 180px;
-        font-size: 2rem;
-        li {
-            font-size: 2.3rem;
-            gap: 50px;
-            margin: 10px 0;
-        }
-        a {
-            font-size: 2.3rem;
-        }
-        .phone {
-            width: 70px;
+        position: relative;
+        display: grid;   
+        grid-template-columns: 6vw repeat(5, 1fr);
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        overflow: hidden;
+        
+                
+        .page3_dining {
+            position: absolute;
+            top: 20%;
+            filter: blur(3px);          
         }
 
-        .at {
-            height: 60px;
-        }
-        .location {
-            width: 70px;
-            height: 100%;
+        .page3__contact {
+            top: 23%;
+            left: 50%;
+            position: absolute;
+            font-size: 2rem;
+            li {
+                font-size: 2.3rem;
+                gap: 50px;
+                margin: 10px 0;
+                a {
+                    font-size: 2.3rem;
+                }
+                .phone {
+                    width: 70px;
+                }
+    
+                .at {
+                    height: 60px;
+                }
+                .location {
+                    width: 70px;
+                    height: 100%;
+                }
+            }
+           
         }
     }
 }
