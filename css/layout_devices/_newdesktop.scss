@@ -44,6 +44,7 @@ header {
             grid-column-start: 2;
             grid-column-end: 5;
             width: 100%;
+            max-width: 100%;
             height: auto;
             margin-top: 0;
             .page1top__tahini {
@@ -104,12 +105,16 @@ header {
             grid-column-start: 6;
             grid-column-end: 11;
             margin-right: 16px;
+            padding: 0;
+            background-color: white;
             .page1bottom__paragraph {
-                width: 100%;
+                
+                  
                 font-size: 2.4rem; 
                 line-height: 1.2;             
-                padding-bottom: 80px; 
-                height: auto;            
+                padding-bottom: 30px; 
+                padding-right: 10px;  
+                background-color: none;           
             }
             a {
                 font-size: 2.4rem;
@@ -245,18 +250,16 @@ header {
     margin: 16px 15px 0px 0px;
     width: 100%;
     height: 100vh;
-    border-left: 100px solid white;
-
+    border-left: 95px solid white;
     .page3__form {
         display: grid;   
         grid-template-rows: 6vw repeat(5, 1fr);
-        width: 100%;
+        width: 80%;
         padding-top: 150px; 
         h3 {
             font-size: 3.5rem;
             font-weight: normal;
         }
-
         .page3__form2 {           
              padding-top: 0;
              padding-bottom: 20px;
@@ -274,15 +277,12 @@ header {
             
             label {
                 font-size: 2.4rem;
-
             } 
             input {
                 width: 60%;
-                height: 40px;
-                        
+                height: 40px;        
             }
         }
-
         .page3__request {
             font-size: 2rem;
             padding-top: 0;
@@ -290,7 +290,6 @@ header {
             padding-left: 50px;
             padding-right: 50px;
         }  
-
         .page3__cancel {
             font-size: 2rem;
             padding-top: 0;
@@ -298,30 +297,30 @@ header {
             padding-left: 50px;
             padding-right: 50px;
         }
-
     }
 
 
     .page3__container {
         position: relative;
-        display: grid;   
-        grid-template-columns: 6vw repeat(5, 1fr);
+        display: flex;
+        flex-direction: row;
         width: 100%;
         margin: 0px 0px 30px 0px;
-        overflow: hidden;
-        
-                
+        overflow: hidden; 
         .page3_dining {
             position: absolute;
-            top: 20%;
-            filter: blur(3px);          
+            top: 15%;
+            filter: blur(3px); 
+            width: auto;
+            height: 63vh;
+                     
         }
-
         .page3__contact {
-            top: 23%;
-            left: 50%;
+            top: 35%;
+            left: 45%;
             position: absolute;
             font-size: 2rem;
+            
             li {
                 font-size: 2.3rem;
                 gap: 50px;
@@ -340,8 +339,7 @@ header {
                     width: 70px;
                     height: 100%;
                 }
-            }
-           
+            } 
         }
     }
 }
