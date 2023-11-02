@@ -27,6 +27,9 @@ header {
         word-spacing: 1px;
     }   
 }
+/*-----------------------------------------------------------------------------*/
+/*----------------------------- PAGE 1 ----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
 
 .page1 {
     grid-column: span 10;
@@ -44,8 +47,7 @@ header {
             grid-column-start: 2;
             grid-column-end: 5;
             width: 100%;
-            max-width: 100%;
-            height: auto;
+            max-height: 100%;
             margin-top: 0;
             .page1top__tahini {
                 font-size: 7.5rem;
@@ -53,6 +55,7 @@ header {
             .page1top__drizzle {
                 font-size: 2.8rem;
                 left: 63%;
+                top: 19%;
             }
             .page1top__chickpeas {
                 left: 40%;
@@ -67,6 +70,7 @@ header {
             grid-column-end: 11;
             font-size: 2.4rem;
             line-height: 1.2;  
+            margin-top: 0 ;
                     
         }
     }
@@ -105,11 +109,10 @@ header {
             grid-column-start: 6;
             grid-column-end: 11;
             margin-right: 16px;
-            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
             background-color: white;
             .page1bottom__paragraph {
-                
-                  
                 font-size: 2.4rem; 
                 line-height: 1.2;             
                 padding-bottom: 30px; 
@@ -131,6 +134,10 @@ header {
         
 
 }
+
+/*-----------------------------------------------------------------------------*/
+/*----------------------------- PAGE 2 ----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
 
 
 .page2 {    
@@ -239,7 +246,9 @@ header {
         }
     }
 
- 
+/*-----------------------------------------------------------------------------*/
+/*----------------------------- PAGE 3 ----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
 
 .page3 {
     grid-column: span 10;
@@ -312,7 +321,7 @@ header {
             top: 15%;
             filter: blur(3px); 
             width: auto;
-            height: 63vh;
+            height: 65vh;
                      
         }
         .page3__contact {
@@ -344,6 +353,9 @@ header {
     }
 }
 
+/*-----------------------------------------------------------------------------*/
+/*----------------------------- FOOTER ----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
 
 footer {
     position: fixed;
@@ -359,19 +371,20 @@ footer {
     }
     .buttons {
         padding-right: 100px;
-        .page3footer__decline {
-            padding-left: 30px;
-            padding-right: 30px;
-            margin-left: 20px;
-            margin-right: 20px;
-            border: none;
-        }
-        .page3footer__accept {
-            padding-left: 30px;
-            padding-right: 30px;
-            margin-left: 20px;
-            margin-right: 20px;
-            border: none;
-        }
+      
+    }
+    .page3footer__decline {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: none;
+    }
+    .page3footer__accept {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 30px;
+        margin-right: 20px;
+        border: none;
     }
 }
