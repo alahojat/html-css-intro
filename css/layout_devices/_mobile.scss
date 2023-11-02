@@ -41,25 +41,18 @@ a {
     color: white;
     text-decoration: none;
 }
-
-
 /*-----------------------------------------------------------------------------*/
-/*----------------------------- PAGE 2 ----------------------------------------*/
+/*----------------------------- PAGE 1 ----------------------------------------*/
 /*-----------------------------------------------------------------------------*/
-
-
-
-
 .page1 {
     display: flex;
     flex-direction: column;   
     height: 100%;
 }
-
 .page1top {
     height: 100%;
-}
 
+}
 .page1top__title {
     position: relative;
     display: flex;
@@ -100,9 +93,6 @@ a {
         font-size: 2rem;
     }
 }
-
-
-
 .page1top__text {
     color: #00ff38;
     font-family: 'jockey one';
@@ -111,13 +101,9 @@ a {
     padding: 30px;
     font-size: 1.3rem; 
 }
-
-
 .page1bottom__section {
     position: relative;
 }
-
-
 .page1bottom_arrow {
     position: absolute;
     bottom: 12%;
@@ -128,9 +114,6 @@ a {
     width: 10vw;
     height: auto;
 }
-
-
-
 .page1bottom__section {
     margin-bottom: 16px;
     width: 100%;
@@ -139,13 +122,11 @@ a {
         transition: transform 1s ease-in-out;
     }
 }
-
 .page1bottom__text {
     position: relative;
     height: 240px;
     width: 100%;
 }
-
 .page1bottom__paragraph {
     position: absolute;
     background-color: white;
@@ -159,7 +140,6 @@ a {
     font-size: 1.3rem;
     margin-bottom: 16px;
 }
-
 .page1bottom__menu {
     font-family: 'jockey one'; 
     position: absolute;
@@ -170,7 +150,6 @@ a {
     padding-left: 30px;
     color: black;
 }
-
 .page1bottom__arrow {
     position: absolute;
     left: 45%;
@@ -178,13 +157,9 @@ a {
     height: auto;
     bottom: 5%;
 }
-
-
 /*-----------------------------------------------------------------------------*/
-/*----------------------------- PAGE  ----------------------------------------*/
+/*----------------------------- PAGE 2 ----------------------------------------*/
 /*-----------------------------------------------------------------------------*/
-
-
 .page2  {
     position: relative;
     display: flex;
@@ -295,11 +270,9 @@ a {
     padding: 0px 0px;
     display: inline-block;
 }
-
 /*-----------------------------------------------------------------------------*/
 /*----------------------------- PAGE 3 ----------------------------------------*/
 /*-----------------------------------------------------------------------------*/
-
 .page3 {
     position: relative;
     width: 100%;
@@ -397,11 +370,9 @@ input {
 .location {
     width: 50px;
 }
-
 /*-----------------------------------------------------------------------------*/
 /*----------------------------- FOOTER ----------------------------------------*/
 /*-----------------------------------------------------------------------------*/
-
 .footer {
     display: flex;
     align-items: center;
@@ -416,8 +387,7 @@ input {
     .buttons {
         display: inline;
         font-family: 'jockey one';
-        text-transform: uppercase;
-        
+        text-transform: uppercase; 
     }
     .page3footer__decline {
         background-color: #fff236;
